@@ -273,6 +273,7 @@ textarea{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    gap: 1.5rem;
 }
 
 .socmed_item{
@@ -280,7 +281,7 @@ textarea{
     align-items: center;
 }
 
-.socmed_item p{
+.socmed_item label{
     padding-left: .5rem;
 }
 
@@ -297,7 +298,6 @@ footer{
 
 .footer_text{
     font-size: xx-large;
-    
 }
 .footer_items{
     display: flex;
