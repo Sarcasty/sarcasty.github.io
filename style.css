@@ -30,7 +30,7 @@ header{
 
 .logo{
     display: flex;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 header nav{
@@ -43,13 +43,13 @@ header nav{
 header nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 0 10px;
+    margin: 0 1rem; 
 }
 
 header nav ul li a{
     color: black;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1rem; 
     position: relative;
     color: white;
 }
@@ -57,11 +57,11 @@ header nav ul li a{
 header nav ul li a::after{
     content: '';
     width: 0;
-    height: 3px;
+    height: .2rem; 
     background: #329d9c;
     position: absolute;
     left: 0;
-    bottom: -6px;
+    bottom: -.1rem; 
     transition: 0.5s;
 }
 
@@ -72,7 +72,7 @@ header nav ul li a:hover::after{
 /*Home*/
 
 main{
-    padding: 10% 10%;
+    padding: 6rem 10% 10%; 
 }
 
 .home_body{
@@ -83,38 +83,33 @@ main{
 }
 
 .home_col1{
-    align-items: center;
     width: 40%;
 }
 
 .home_col1 img{
     width: 100%;
+    border-radius: 50%;
 }
 
 h1{
-    font-size: 60px;
+    font-size: 4rem; 
 }
 
 .home_col2 p{
-    font-size: 20px;
+    font-size: 1.5rem; 
 }
 
-.home_img{
-    border-radius: 50%;
-    max-width: 100%;
-    vertical-align: middle;
-}
 .button{
     display: inline-block;
     background-color: #329d9c;
-    border-radius:20px;
+    border-radius: 2rem; 
     padding: 2% 5%;
 }
 
 .button a{
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 1.5rem; 
 }
 
 span{
@@ -135,20 +130,20 @@ span{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1rem; 
 }
 
 .personal_info{
     flex: 1 0;
     background-color: #56c596;
-    padding: 0 10px;
-    border-radius: 10px;
+    padding: 0 1rem; 
+    border-radius: 1rem; 
 }
 
 .educ_bg{
     background-color: #56c596;
-    padding: 0 10px;
-    border-radius: 10px;
+    padding: 0 1rem; 
+    border-radius: 1rem; 
 }
 
 .about_item{
@@ -156,12 +151,13 @@ span{
     flex-wrap: wrap;
 }
 .about_category{
-    padding-left: 25px;
-    width: 100px;
+    padding-left: 1.4rem; 
+    width: 6rem;
+    height: 1rem; 
     font-weight: bold;
 }
 .about_answer{
-    padding-left: 25px;
+    padding-left: 1.5rem; 
 }
 
 /*Skills*/
@@ -175,30 +171,30 @@ span{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 5px;
+    gap: .3rem;
     background-color: #56c596;
-    border-radius: 10px;
+    border-radius: .7rem; 
 }
 
 .skills_item{
-    padding: 20px;
+    padding: 1.5rem;
     display: flex;
     align-items: center;
 }
 
 .skills .skills_content .skills_item label{
-    width: 100px;
-    font-size: 20px;
+    width: 4rem; 
+    font-size: 100%; 
 }
 
 .skills .skills_content .skills_item span{
-    padding-left: 5px;
+    padding-left: .5rem;
     color: black;
 }
 
 progress{
     width: 100%;
-    height: 35px;
+    height: 2.25rem;
     accent-color: #329d9c;
 }
 
@@ -210,46 +206,46 @@ progress{
 
 .achieve_list{
     display: flex;
-    gap: 20px;
+    gap: 1rem; 
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .list{
-    width: 280px;
-    border-radius: 10px;
-    padding: 10px;
+    width: 18rem; 
+    border-radius: .5rem;
+    padding: .5rem .5rem 0 .5rem;
     text-align: center;
     background-color: #56c596;
 }
 
 .list img{
     width: 100%;
-    border-radius: 5px;
+    border-radius: .25rem;
 }
 
 /*Contact*/
 
 .contact{
-    padding: 25px 10%;
+    padding: 5% 10% 3% 10%;
 }
 
 .contact_content{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
+    gap: 1rem;
 }
 
 .mail{
-    padding: 0 40px 40px 40px;
+    padding: 0 2rem 2rem 2rem;
     background: #56c596;
     width: 60%;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 .form_item{
-    padding-bottom: 15px;
+    padding-bottom: 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -260,23 +256,17 @@ progress{
 
 .contact_category{
     text-align: justify;
-    width: 50px;
-    padding-right: 20px;
 }
 
 .form_input{
     border: none;
-    border-bottom: 2px solid;
+    border-bottom: .15rem solid;
     outline: none;
     background-color: #56c596;
 }
 
 textarea{
     resize: none;
-}
-
-.socMed{
-    padding-left: 50px;
 }
 
 .contact_list{
@@ -291,9 +281,9 @@ textarea{
 }
 
 .icons{
-    height: 25px;
-    width: 25px;
-    padding: 5% 5px 5% 0;
+    height: 1.75rem; 
+    width: 1.75rem;
+    padding: 5% .5rem 5% 0;
 }
 
 /*footer*/
@@ -309,6 +299,7 @@ footer{
 
 .footer_text{
     font-size: xx-large;
+    
 }
 .footer_items{
     display: flex;
@@ -316,7 +307,7 @@ footer{
 
 }
 .footer_icon{
-    height: 25px;
-    width: 25px;
-    padding: 5px 2%;
+    height: 1.5rem;
+    width: 1.5rem; 
+    padding: .5rem 2%;
 }
