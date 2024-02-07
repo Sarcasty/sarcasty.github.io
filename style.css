@@ -280,10 +280,8 @@ textarea{
     align-items: center;
 }
 
-.icons{
-    height: 1.75rem; 
-    width: 1.75rem;
-    padding: 5% .5rem 5% 0;
+.socmed_item p{
+    padding-left: .5rem;
 }
 
 /*footer*/
